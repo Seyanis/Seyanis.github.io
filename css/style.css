@@ -47,6 +47,9 @@ font-weight: 700;
 	font-size: 18px;
 	font-weight: 700;
 	color: #072b6f;
+	-webkit-transition: 0.2em;
+	-o-transition: 0.2em;
+	transition: 0.2em;
 	}
 small{
 	display: block;
@@ -157,6 +160,13 @@ margin-top: 0;
 	color:#fff;
 	font-size: 18px;
 	padding: 12px 40px;
+	-webkit-transition: 0.2em;
+	-o-transition: 0.2em;
+	transition: 0.2em;
+}
+.footer-btn:hover{
+	background-color: #fff;
+	color: #367afa;
 }
 .footer-cta{
 	margin-bottom: 7px;
@@ -209,4 +219,8 @@ margin-top: 0;
 	.footer-autor, .footer-text{
 		text-align:center;
 	}
+}
+
+.header-btn:hover{
+	box-shadow: none;
 }

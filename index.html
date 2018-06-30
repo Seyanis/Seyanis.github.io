@@ -16,6 +16,7 @@
 		<title>Персональный Сайт Евгения Наполов</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
 
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -27,22 +28,22 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
-				<img class="header-img" src="img/main-img.png" alt="Компьютер">
+				<img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Компьютер">
 			</div>
 			<div class="col-lg-5">
 				<div class="header-info">
-					<p class="pre-title">Веб-разработчик</p>
-					<h1 class="head-title">Евгений Наполов</h1>
-					<p class="header-text">Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
-					<a href="https://vk.me/seyanise" class="header-btn">Связаться</a>
-					<small>*Это бесплатно</small>
+					<p class="pre-title wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Евгений Наполов</h1>
+					<p class="header-text wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
+					<a href="https://vk.me/seyanise" class="header-btn wow fadeInRightBig" data-wow-delay="0.4s">Связаться</a>
+					<small class="wow fadeInRightBig" data-wow-delay="0.4s">*Это бесплатно</small>
 				</div>	
 			</div>
 		</div>
 	</div>
  </header>
  	<section class="portfolio">
- 		<div class="portfolio-block container">
+ 		<div class="portfolio-block container wow fadeInUpBig">
  			<h2 class=portfolio-title>портфолио</h2>
  			<p class=portfolio-subtitle>мои работы</p>
  			<div class="row">
@@ -72,10 +73,10 @@
 	 			<div class="col-md-4">
 	 				<div class="social-block">
 	 					<p>Подпишитесь:</p>
-						<a href="facebook.com"><img src="img/facebook.png" alt="facebook"></a>
-						<a href="#"><img src="img/telegram.png" alt="telegram"></a>
-						<a href="https://vk.com/seyanise"><img src="img/vk.png" alt="vk"></a>
-						<a href="youtube.com"><img src="img/youtube.png" alt="YouTube"></a>
+						<a class="wow fadeInDownBig" data-wow-delay="0.1s" href="facebook.com"><img  src="img/facebook.png" alt="facebook"></a>
+						<a class="wow fadeInDownBig" data-wow-delay="0.2s" href="#"><img  src="img/telegram.png" alt="telegram"></a>
+						<a class="wow fadeInDownBig" data-wow-delay="0.3s" href="https://vk.com/seyanise"><img  src="img/vk.png" alt="vk"></a>
+						<a class="wow fadeInDownBig" data-wow-delay="0.4s" href="youtube.com"><img  src="img/youtube.png" alt="YouTube"></a>
 	 				</div>
 	 			</div>
 	 			<div class="col-md-4 cta-block">
@@ -86,5 +87,10 @@
  		</div>
  	</footer>
 
+
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
